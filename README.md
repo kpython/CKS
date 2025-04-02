@@ -6,13 +6,13 @@ This repository contains commands and notes I gathered while preparing for the C
 
 [Security tools](Kubernetes-Security-tools/SecurityTools.md)
 
-[Commands to remember](Command%20to%20remember.md)
-
 [Kubelet](Kubelet.md)
 
 [PSA](PSA.md)
 
 [Must-know commands](Command%20to%20know.md)
+
+[Topics to review before exam](To%20review.md)
 
 [Allowed Documentation](Documentation/AllowedDocumentation.md)
 
