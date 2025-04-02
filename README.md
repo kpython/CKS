@@ -4,33 +4,35 @@
 
 This repository contains commands and notes I gathered while preparing for the Certified Kubernetes Security Specialist (CKS) exam. 
 
+[Security tools](Kubernetes-Security-tools/SecurityTools.md)
 
-[Security tools](CKS%201affdb6c13fd80938b4dd70d2dca9f17/Security%20tools%201affdb6c13fd806db4b5e817aafe3e38.md)
+[Commands to remember](Command%20to%20remember.md)
 
-[Command to remember](CKS%201affdb6c13fd80938b4dd70d2dca9f17/Command%20to%20remember%201affdb6c13fd802fb39ce666d792a47f.md)
+[Kubelet](Kubelet.md)
 
-[Allowed Documentation](CKS%201affdb6c13fd80938b4dd70d2dca9f17/Allowed%20Documentation%201b0fdb6c13fd80528a84d37fb11b5277.md)
+[PSA](PSA.md)
 
-[To review](CKS%201affdb6c13fd80938b4dd70d2dca9f17/To%20review%201b0fdb6c13fd80a3a62adf65da26c826.md)
+[Must-know commands](Command%20to%20know.md)
 
-[Kubelet](CKS%201affdb6c13fd80938b4dd70d2dca9f17/Kubelet%201b6fdb6c13fd80158728f1a83cca77b4.md)
+[Allowed Documentation](Documentation/AllowedDocumentation.md)
 
-[PSA](CKS%201affdb6c13fd80938b4dd70d2dca9f17/PSA%201b6fdb6c13fd805ead11d9e078584bc1.md)
+[Other documentation](Documentation/OtherDocumentation.md)
 
-[Other documentation](CKS%201affdb6c13fd80938b4dd70d2dca9f17/Other%20documentation%201bcfdb6c13fd8087818fe281af33df24.md)
+**Some tips**
+- Be fast, be fast, and be fast. ;)
+- Master Vim to be as fast as possible.
+- The documentation is only here to copy-paste code snippets that you already know where to find. However, during the exam, there isn’t enough time to search for information you don’t know or have never tested before.  
+  If you really don’t know something, don’t waste time searching.
+- Experiment and train as much as possible with Killercoda and Killershell.
 
-
-
-
-Before star:
-
-- Copy/Paste: shift + ctrl + c /v
-- Check Webcam focus
-- Get rid of SidecarRelay process et photosyncd
-
-
-Must know:
-- Know Network policies and RBAC
-- Audit policy from scratch
-- Passing parameters to kubelet through systemd unit file
-- NP: from all namespaces WITH label hellow=world
+**Important before taking the exam:**
+- Be 100% sure your connection is fast and stable (check ping delay).
+- Read: https://docs.linuxfoundation.org/tc-docs/certification/important-instructions-cks
+- Make sure you know how to copy-paste in the PSI Exam testing environment.  
+  For macOS: Copy/Paste: `shift + ctrl + c / v`
+- Verify your webcam is able to autofocus (ID check during the admission process).
+- (For macOS) Make sure none of these processes are running on your Mac before starting the exam and get rid of them.  
+  Tip: Shut down any Apple device (iPhone and iPad) or turn off Bluetooth:
+    - SidecarRelay
+    - photosyncd
+    - ScreenSharingSubscriber

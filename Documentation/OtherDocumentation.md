@@ -1,5 +1,7 @@
 # Some other documentation and links
 
+Here some other cool article I found while studying CKS
+
 **Medium:**
 
 - https://jonathan18186.medium.com/certified-kubernetes-security-specialist-cks-preparation-part-8-runtime-security-system-9f705872c17
